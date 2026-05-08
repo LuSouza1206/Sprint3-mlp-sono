@@ -1,17 +1,25 @@
 # Sprint 3 — MLP: Predição de Qualidade do Sono
 
+#Integrantes :
+
+- Kaio Vinicius Meireles Alves - RM553282
+- Lucas Alves de Souza -  RM553956
+- Lucas de Freitas Pagung -  RM553242
+- Guilherme Fernandes de Freitas - RM554323
+- João Pedro Chizzolini de Freitas - RM553172
+
 > Projeto desenvolvido para a disciplina de Inteligência Artificial.  
 > App de Saúde Digital — promoção de bem-estar e hábitos saudáveis.
 
 ---
 
-## Problema
+# Problema
 
 Usuários de apps de saúde não conseguem identificar quais hábitos diários prejudicam seu sono. O modelo prevê se o usuário terá uma boa ou má qualidade de sono com base em dados comportamentais coletados pelo app, devolvendo recomendações personalizadas.
 
 ---
 
-## Dataset
+# Dataset
 
 **Sleep Health and Lifestyle Dataset** — Kaggle  
 🔗 https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset
@@ -22,7 +30,7 @@ Usuários de apps de saúde não conseguem identificar quais hábitos diários p
 
 ---
 
-## Arquitetura da MLP
+# Arquitetura da MLP
 Entrada (9 features) → Oculta 1 (64, ReLU) → Oculta 2 (32, ReLU) → Saída (2 classes)
 
 | Parâmetro | Valor |
@@ -34,7 +42,7 @@ Entrada (9 features) → Oculta 1 (64, ReLU) → Oculta 2 (32, ReLU) → Saída 
 
 ---
 
-## Resultados
+# Resultados
 
 | Métrica | Valor |
 |---|---|
@@ -48,7 +56,7 @@ Entrada (9 features) → Oculta 1 (64, ReLU) → Oculta 2 (32, ReLU) → Saída 
 
 ---
 
-## Como rodar
+# Como rodar
 
 1. Acessa o Google Colab: https://colab.research.google.com
 2. Faz upload do arquivo `notebook_mlp_sono.ipynb`
@@ -58,7 +66,7 @@ Entrada (9 features) → Oculta 1 (64, ReLU) → Oculta 2 (32, ReLU) → Saída 
 Ou clona o repositório e roda localmente:
 
 ```bash
-git clone https://github.com/SEU_USUARIO/sprint3-mlp-sono
+git clone https://github.com/LuSouza1206/Sprint3-mlp-sono.git
 cd sprint3-mlp-sono
 pip install scikit-learn pandas numpy matplotlib seaborn
 python mlp_sono.py
@@ -66,7 +74,7 @@ python mlp_sono.py
 
 ---
 
-## Tecnologias
+# Tecnologias
 
 - Python 3.10+
 - scikit-learn
@@ -76,7 +84,7 @@ python mlp_sono.py
 
 ---
 
-## Estrutura do repositório
+# Estrutura do repositório
 sprint3-mlp-sono/
 ├── README.md
 ├── mlp_sono.py
