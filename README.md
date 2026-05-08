@@ -53,6 +53,8 @@ Entrada (9 features) → Oculta 1 (64, ReLU) → Oculta 2 (32, ReLU) → Saída 
 | Baseline (Dummy) | 69.3% |
 
 > O modelo supera o baseline em **+25.4 pontos percentuais**.
+>
+> ![Resultados](Tabelas.png)
 
 ---
 
